@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+    tools:context=".ActivityB">
+
+    <TextView
+        android:id="@+id/Andelacommunity"
+        android:layout_width="373dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="45dp"
+        android:text="@string/ALC2"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/alccommunity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/alccommunity"
+        android:layout_width="367dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="403dp"
+        android:text="@string/ALCcommunity"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Andelacommunity"
+        app:layout_constraintStart_toStartOf="@+id/Andelacommunity" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="122dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="145dp"
+        android:text="@string/joinus"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alccommunity" />
+
+    <TextView
+        android:id="@+id/learnincommunitydesc"
+        android:layout_width="369dp"
+        android:layout_height="192dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="11dp"
+        android:text="@string/alc2last"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/alccommunity"
+        app:layout_constraintStart_toStartOf="@+id/alccommunity"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.0" />
+
+</android.support.constraint.ConstraintLayout>

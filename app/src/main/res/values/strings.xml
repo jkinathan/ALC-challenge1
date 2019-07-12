@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ALC 4 Phase1</string>
+    <string name="alcphase1">ALC 4 Phase1</string>
+    <string name="alclogo">ALC logo</string>
+    <string name="WelcomeALC4">Welcome to ALC 4.0</string>
+    <string name="ABOUT_ALC">ABOUT ALC</string>
+    <string name="MY_PROFILE">MY PROFILE</string>
+    <string name="ALC2">THE ANDELA LEARNING COMMUNTIY</string>
+    <string name="ALCcommunity">A community empowering the next generation of African technology leaders</string>
+    <string name="joinus">Join Us!</string>
+    <string name="alc2last">The Andela Learning Community is a network of people technologists and Tech enthusiasts across Africa dedicated to learning how to use technology to solve humanity\'s problems</string>
+    <string name="Jordan">Jordan Kinathan</string>
+    <string name="Track">Track:</string>
+    <string name="Country">Country:</string>
+    <string name="Email">Email:</string>
+    <string name="PhoneNumber">Phone Number:</string>
+    <string name="SlackUsername">Slack Username:</string>
+    <string name="Android">Android</string>
+    <string name="Uganda">Uganda</string>
+    <string name="kinathanj">kinathanj@gmail.com</string>
+    <string name="number">0705048059</string>
+    <string name="jordankinathan">jordankinathan</string>
+    <string name="andelaimage">andelaimage</string>
+    <string name="title_activity_d">activityD</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+</resources>
